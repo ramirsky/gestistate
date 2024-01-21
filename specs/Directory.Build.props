@@ -1,0 +1,45 @@
+<Project>
+  <Import Project="$(MSBuildThisFileDirectory)\..\Directory.Build.props"/>
+
+  <ItemGroup>
+    <ProjectReference Include="$(MSBuildThisFileDirectory)\..\testing\gestistate\gestistate.Testing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Smusdi.Testing"/>
+    <PackageReference Include="Smusdi.PostgreSQL.Testing"/>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="xunit"/>
+    <PackageReference Include="Microsoft.NET.Test.Sdk"/>
+    <PackageReference Include="Microsoft.CodeCoverage"/>
+    <PackageReference Include="xunit.runner.visualstudio"/>
+    <PackageReference Include="SpecFlow.xUnit"/>
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin"/>
+    <PackageReference Include="coverlet.collector">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="JunitXml.TestLogger"/>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)\xunit.runner.json"
+             Link="xunit.runner.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)\specflow.json"
+         Link="specflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <RunSettingsFilePath>$(MSBuildThisFileDirectory)\.runsettings</RunSettingsFilePath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyAttribute Include="System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute" />
+  </ItemGroup>
+</Project>

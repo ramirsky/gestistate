@@ -1,0 +1,273 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ramirocaio/projects/dotnet/gestistate/src/gestistate/gestistate.csproj": {}
+  },
+  "projects": {
+    "/Users/ramirocaio/projects/dotnet/gestistate/database/PostgreSqlMigration/PostgreSqlMigration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ramirocaio/projects/dotnet/gestistate/database/PostgreSqlMigration/PostgreSqlMigration.csproj",
+        "projectName": "PostgreSqlMigration",
+        "projectPath": "/Users/ramirocaio/projects/dotnet/gestistate/database/PostgreSqlMigration/PostgreSqlMigration.csproj",
+        "packagesPath": "/Users/ramirocaio/.nuget/packages/",
+        "outputPath": "/Users/ramirocaio/projects/dotnet/gestistate/database/PostgreSqlMigration/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "/Users/ramirocaio/projects/dotnet/gestistate/NuGet.Config",
+          "/Users/ramirocaio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[7.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )",
+              "versionCentrallyManaged": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )",
+              "versionCentrallyManaged": true
+            },
+            "Smusdi.Core": {
+              "target": "Package",
+              "version": "[7.2.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Smusdi.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.2.8, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "coverlet.collector": "[3.2.0, )",
+            "EFCore.NamingConventions": "[7.0.2, )",
+            "JunitXml.TestLogger": "[3.0.114, )",
+            "Microsoft.CodeCoverage": "[17.4.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.14, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.14, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.14, )",
+            "Microsoft.NET.Test.Sdk": "[17.4.0, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.11, )",
+            "Smusdi.Core": "[7.2.8, )",
+            "Smusdi.PostgreSQL": "[7.2.8, )",
+            "Smusdi.PostgreSQL.Testing": "[7.2.8, )",
+            "Smusdi.Testing": "[7.2.8, )",
+            "SonarAnalyzer.CSharp": "[9.15.0.81779, )",
+            "SpecFlow.Plus.LivingDocPlugin": "[3.9.57, )",
+            "SpecFlow.xUnit": "[3.9.74, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ramirocaio/projects/dotnet/gestistate/src/gestistate/gestistate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ramirocaio/projects/dotnet/gestistate/src/gestistate/gestistate.csproj",
+        "projectName": "gestistate",
+        "projectPath": "/Users/ramirocaio/projects/dotnet/gestistate/src/gestistate/gestistate.csproj",
+        "packagesPath": "/Users/ramirocaio/.nuget/packages/",
+        "outputPath": "/Users/ramirocaio/projects/dotnet/gestistate/src/gestistate/obj/",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "configFilePaths": [
+          "/Users/ramirocaio/projects/dotnet/gestistate/NuGet.Config",
+          "/Users/ramirocaio/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/ramirocaio/projects/dotnet/gestistate/database/PostgreSqlMigration/PostgreSqlMigration.csproj": {
+                "projectPath": "/Users/ramirocaio/projects/dotnet/gestistate/database/PostgreSqlMigration/PostgreSqlMigration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[7.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )",
+              "versionCentrallyManaged": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )",
+              "versionCentrallyManaged": true
+            },
+            "Smusdi.Core": {
+              "target": "Package",
+              "version": "[7.2.8, )",
+              "versionCentrallyManaged": true
+            },
+            "Smusdi.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.2.8, )",
+              "versionCentrallyManaged": true
+            },
+            "SonarAnalyzer.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.15.0.81779, )",
+              "versionCentrallyManaged": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "coverlet.collector": "[3.2.0, )",
+            "EFCore.NamingConventions": "[7.0.2, )",
+            "JunitXml.TestLogger": "[3.0.114, )",
+            "Microsoft.CodeCoverage": "[17.4.0, )",
+            "Microsoft.EntityFrameworkCore": "[7.0.14, )",
+            "Microsoft.EntityFrameworkCore.Design": "[7.0.14, )",
+            "Microsoft.EntityFrameworkCore.Relational": "[7.0.14, )",
+            "Microsoft.NET.Test.Sdk": "[17.4.0, )",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "[7.0.11, )",
+            "Smusdi.Core": "[7.2.8, )",
+            "Smusdi.PostgreSQL": "[7.2.8, )",
+            "Smusdi.PostgreSQL.Testing": "[7.2.8, )",
+            "Smusdi.Testing": "[7.2.8, )",
+            "SonarAnalyzer.CSharp": "[9.15.0.81779, )",
+            "SpecFlow.Plus.LivingDocPlugin": "[3.9.57, )",
+            "SpecFlow.xUnit": "[3.9.74, )",
+            "StyleCop.Analyzers": "[1.2.0-beta.435, )",
+            "xunit": "[2.4.2, )",
+            "xunit.runner.visualstudio": "[2.4.5, )"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[7.0.15, 7.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.15, 7.0.15]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

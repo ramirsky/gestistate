@@ -1,0 +1,30 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <smusdi-version>7.2.8</smusdi-version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Smusdi.Core" Version="$(smusdi-version)" />
+    <PackageVersion Include="Smusdi.Testing" Version="$(smusdi-version)" />
+    <PackageVersion Include="Smusdi.PostgreSQL" Version="$(smusdi-version)" />
+    <PackageVersion Include="Smusdi.PostgreSQL.Testing" Version="$(smusdi-version)" />
+
+    <PackageVersion Include="StyleCop.Analyzers" Version="1.2.0-beta.435" />
+    <PackageVersion Include="SonarAnalyzer.CSharp" Version="9.15.0.81779" />
+    
+    <PackageVersion Include="xunit" Version="2.4.2" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.4.5" />
+    <PackageVersion Include="SpecFlow.xUnit" Version="3.9.74" />
+    <PackageVersion Include="Microsoft.CodeCoverage" Version="17.4.0"/>
+    <PackageVersion Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57"/>
+    <PackageVersion Include="JunitXml.TestLogger" Version="3.0.114"/>
+    
+    <PackageVersion Include="coverlet.collector" Version="3.2.0" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="7.0.14" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.14" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.14"/>
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />
+    <PackageVersion Include="EFCore.NamingConventions" Version="7.0.2" />
+  </ItemGroup>
+</Project>
